@@ -1,0 +1,29 @@
+#bg {
+      position:fixed;
+      top:-50%;
+      left:-50%;
+      width:200%;
+      height:200%;
+}
+#bg img {
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      margin:auto;
+      min-width:50%;
+      min-height:50%;
+}
+html, body {
+        font-weight: 1000;
+}
+.btn-success {
+    background-color: #ef86c5;
+    border-color: #ef86c5;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #c72686;  !important
+    border-color: #c72686;      !important
+}
