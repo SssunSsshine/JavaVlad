@@ -14,7 +14,7 @@ create table profile (
 
 create table note (
    	id_note           	BIGINT              			not null DEFAULT (nextval('s_note')),
-   	text_note			VARCHAR(100)					not null,
+   	text_note			VARCHAR(1000)					not null,
 	time_creation		TIMESTAMP without time zone		not null DEFAULT(NOW()),
 	id_profile			BIGINT              			not null
 );
